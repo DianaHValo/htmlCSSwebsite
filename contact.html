@@ -1,0 +1,75 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Contact</title>
+
+		<link rel="stylesheet" href="contact.css">
+		
+	<ul>
+		<li><a href="index.html">Home</a></li>
+		<li><a href="news.html">News</a></li>
+		<li><a href="gallery.html">Gallery</a></li>
+		<li><a href="contact.html">Contact</a></li>
+	</ul>
+		
+</head>
+
+<body>
+
+<br>
+<br>
+<br>
+<br>
+
+  <div class="contact">
+  <form action="action_page.php">
+
+    <label for="firstname" style="color:white">First Name</label> <br>
+    <input type="text" id="firstname" name="firstname" style= "width:500px;" placeholder="Your name.."required>
+	
+	<br><br>
+
+    <label for="lastname" style="color:white">Last Name</label> <br>
+    <input type="text" id="lastname" name="lastname" style= "width:500px;" placeholder="Your last name.." required>
+	
+	<br><br>
+
+    <label for="country" style="color:white">Country</label> <br>
+    <select style= "width:505px;" id="country" name="country">
+      <option value="USA">USA</option>
+      <option value="Rusia">Rusia</option>
+      <option value="Germany">Germany</option>
+    </select>
+	
+	<br><br>
+
+    <label for="subject" style="color:white">Subject</label> <br>
+    <textarea id="subject" name="subject" placeholder="Get in touch with us." style="height:200px;width:500px;"></textarea>
+	
+	<br><br>
+	
+	
+	
+	<div class="column">
+    <div class="content">
+    <label style="color:white">I wish to receive notifications.</label><br>
+    </div>
+    </div>
+  
+    <div class="column">
+    <div class="content">
+    <input type="checkbox" name="Get notifications.[]" checked> <br>
+
+    </div>
+    </div>
+
+    <input type="submit" value="Submit">
+	
+	<br><br>
+			
+
+  </form>
+  </div>
+  
+</body>
